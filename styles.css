@@ -94,3 +94,11 @@ input:focus, textarea:focus { outline: 2px solid #0ea5e9; border-color: #38bdf8;
 }
 #testimonials h2 { margin-bottom: 12px; }
 .reviews { display: grid; gap: 12px; }
+.consent-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #64748b; /* subtle gray */
+}
+.consent-note a {
+  text-decoration: underline;
+}
