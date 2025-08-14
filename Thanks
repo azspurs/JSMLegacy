@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thanks — Your Checklist</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="section center">
+    <div class="container">
+      <h1>Thanks. Your checklist is ready.</h1>
+      <p>We will also reach out from 623-400-7741 or jeremy@jsmlegacy.com if you asked for help.</p>
+      <p><a class="btn btn-primary" href="Checklist_Selling_Before_Senior_Living_AZ_Styled.pdf" download>Download the Checklist</a></p>
+      <p style="margin-top:16px;"><a class="btn btn-secondary" href="/">Back to Home</a></p>
+    </div>
+  </section>
+</body>
+</html>
