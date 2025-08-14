@@ -102,3 +102,24 @@ input:focus, textarea:focus { outline: 2px solid #0ea5e9; border-color: #38bdf8;
 .consent-note a {
   text-decoration: underline;
 }
+/* Mobile call bar - hidden by default */
+.mobile-callbar { display: none; }
+@media (max-width: 640px){
+  .mobile-callbar{
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: #0f766e;
+    z-index: 60;              /* keeps it above content */
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+  }
+  .mobile-callbar a{
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 12px 16px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  /* Prevent the bar from covering page content */
+  body{ padding-bottom: 56px; }
+}
