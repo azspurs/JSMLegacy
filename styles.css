@@ -123,3 +123,5 @@ input:focus, textarea:focus { outline: 2px solid #0ea5e9; border-color: #38bdf8;
   /* Prevent the bar from covering page content */
   body{ padding-bottom: 56px; }
 }
+#checklist .lead { color: #334155; margin-bottom: 12px; }
+.lead-form { margin-top: 8px; }
