@@ -140,26 +140,33 @@
 <div>
 <h2 id="contact-heading">Request a Consultation</h2>
 <p>Tell us a little about your situation and we’ll follow up shortly.</p>
-<form method="POST" name="contact">
-<div class="form-grid">
-<label>
-<span>Name</span>
-<input name="name" required="" type="text"/>
-</label>
-<label>
-<span>Phone</span>
-<input name="phone" required="" type="tel"/>
-</label>
-<label>
-<span>Email</span>
-<input name="email" required="" type="email"/>
-</label>
-<label class="full">
-<span>Tell us about your situation</span>
-<textarea name="message" required="" rows="5"></textarea>
-</label>
-</div>
-<button class="btn btn-primary" type="submit">Send My Info</button>
+<form action="https://formspree.io/f/xnnzrnwg" method="POST">
+  <!-- Optional subject line for the email you receive -->
+  <input type="hidden" name="_subject" value="New inquiry from JSM Legacy site">
+
+  <!-- Simple honeypot for spam protection -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <div class="form-grid">
+    <label>
+      <span>Name</span>
+      <input type="text" name="name" required>
+    </label>
+    <label>
+      <span>Phone</span>
+      <input type="tel" name="phone" required>
+    </label>
+    <label>
+      <span>Email</span>
+      <input type="email" name="email" required>
+    </label>
+    <label class="full">
+      <span>Tell us about your situation</span>
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+  </div>
+
+  <button class="btn btn-primary" type="submit">Send My Info</button>
 </form>
 <p class="small print">Prefer email? <a href="mailto:jeremy@jsmlegacy.com">jeremy@jsmlegacy.com</a></p>
 </div>
