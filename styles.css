@@ -77,3 +77,18 @@ input:focus, textarea:focus { outline: 2px solid #0ea5e9; border-color: #38bdf8;
 }
 .reviews blockquote { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px 18px; margin:0 0 12px; font-style:italic; }
 .reviews blockquote footer { margin-top:8px; font-style:normal; color:#475569; font-weight:600; }
+.reviews blockquote {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 0 0 12px;
+  font-style: italic;
+}
+
+.reviews blockquote footer {
+  margin-top: 8px;
+  font-style: normal;
+  color: #475569;
+  font-weight: 600;
+}
