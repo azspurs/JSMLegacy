@@ -185,3 +185,24 @@ a:focus-visible, .btn:focus-visible, input:focus-visible, textarea:focus-visible
   outline:3px solid var(--ring); outline-offset:2px;
   border-radius:10px;
 }
+/* Big clickable card for the checklist */
+.cta-card{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:#fff;
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.cta-card-inner{
+  padding:20px;
+  display:grid;
+  gap:8px;
+}
+.cta-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 6px 18px rgba(2, 6, 23, .06);
+  border-color:#d1d5db;
+}
+#checklist .btn{justify-self:start}
