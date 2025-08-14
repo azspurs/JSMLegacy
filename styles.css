@@ -92,3 +92,5 @@ input:focus, textarea:focus { outline: 2px solid #0ea5e9; border-color: #38bdf8;
   color: #475569;
   font-weight: 600;
 }
+#testimonials h2 { margin-bottom: 12px; }
+.reviews { display: grid; gap: 12px; }
