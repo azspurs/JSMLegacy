@@ -206,3 +206,26 @@ a:focus-visible, .btn:focus-visible, input:focus-visible, textarea:focus-visible
   border-color:#d1d5db;
 }
 #checklist .btn{justify-self:start}
+/* === Bio section === */
+.bio-grid{
+  display:grid;
+  grid-template-columns:140px 1fr;
+  gap:16px;
+  align-items:start;
+}
+.bio-photo{
+  width:140px; height:140px;
+  object-fit:cover; border-radius:50%;
+  border:1px solid var(--border);
+  background:#fff;
+}
+.bio-text p{ margin:0 0 10px 0; }
+.bio-facts{
+  margin:8px 0 12px 0; padding-left:18px; color:var(--slate-700);
+}
+.bio-facts li{ margin-bottom:6px; }
+
+@media (max-width:720px){
+  .bio-grid{ grid-template-columns:1fr; }
+  .bio-photo{ width:120px; height:120px; }
+}
